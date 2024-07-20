@@ -31,10 +31,10 @@ export default withBundleAnalyzer(
       // Eslint behaves weirdly in this monorepo.
       ignoreDuringBuilds: true,
     },
-    i18n: {
-      locales: Object.keys(i18nConfig).map((locale) => locale),
-      defaultLocale: "en",
-    },
+    // i18n: {
+    //   locales: Object.keys(i18nConfig).map((locale) => locale),
+    //   defaultLocale: "en",
+    // },
     distDir: "./.next", // Nextra supports custom `nextConfig.distDir`
     reactStrictMode: true,
     transpilePackages: [
